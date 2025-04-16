@@ -45,11 +45,7 @@ transformers.logging.set_verbosity_error()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # BASEPATH = '/home/dingdaijun/data_list/dingdaijun/LTN_merge/datasets/kgpt/fol_bkl'
-BASEPATH = '/home/majun/document/LTN_merge_no_fuzzy/datasets/merge'
-# BASEPATH = '/home/majun/data/dataset/processed/ltn/cleaned/nc/covid-19'
-# BASEPATH = '/home/majun/data/dataset/processed/ltn/covid-19'
-# BASEPATH = '/home/majun/document/LTN_merge/datasets/GPT'
-# BASEPATH = '/home/majun/document/LTN_merge/datasets/merge_no_conclusion'
+BASEPATH = '/home/majun/document/LTN_merge/datasets/merge'
 print(BASEPATH)
 
 class Encoder(BartPretrainedModel):
